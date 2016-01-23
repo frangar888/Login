@@ -27,7 +27,7 @@ var vg_user = null;
 var vg_version = null;
 
 /**
- * TODO generated, please specify type and doc for the params
+ * 
  * @param lnk_tipo
  * @param lnk_mensaje
  * @param lnk_titulo
@@ -74,7 +74,7 @@ function lanzarVentanaEmergente(lnk_tipo, lnk_mensaje, lnk_titulo, lnk_nombre_fo
 }
 
 /**
- * TODO generated, please specify type and doc for the params
+ * 
  * @param user
  *
  * @properties={typeid:24,uuid:"95A7892A-F452-4D02-A90B-BDEC5BFC58E5"}
@@ -93,7 +93,7 @@ function getUserId(user){
 /**
  * @AllowToRunInFind
  * 
- * TODO generated, please specify type and doc for the params
+ * 
  * 
  *
  * @properties={typeid:24,uuid:"8F73D21B-76DA-447C-8FB8-2E3DCD736F52"}

@@ -43,7 +43,7 @@ var vl_mensaje = null;
  */
 function onActionSi(event) {
 	if(vl_form_si == null || vl_accion_si == null){
-		application.getWindow().hide()
+		application.getWindow("ventanaGenerica").hide()
 		return
 	}else{
 		forms[vl_form_si][vl_accion_si]()
@@ -60,11 +60,11 @@ function onActionSi(event) {
  */
 function onActionNo(event) {
 	if(vl_form_no == null || vl_accion_no == null){
-		application.getWindow().hide()
+		application.getWindow("ventanaGenerica").hide()
 		return
 	}else{
 		forms[vl_form_no][vl_accion_no]
-		//application.getWindow().hide()
+		application.getWindow("ventanaGenerica").hide()
 	}
 }
 
@@ -76,7 +76,7 @@ function onActionNo(event) {
  * @properties={typeid:24,uuid:"973CD4FB-6F19-4246-84FA-FD9EF2BB1D4D"}
  */
 function onActionOK(event) {
-	application.getWindow().hide()
+	application.getWindow("ventanaGenerica").hide()
 	return
 }
 

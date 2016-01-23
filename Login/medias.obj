@@ -79,6 +79,13 @@ uuid:"5610BF5C-0B92-498B-911F-AC6937D161F7"
 {
 encapsulation:0,
 mimeType:"image/png",
+name:"icons/magnifying-glass32.png",
+typeid:37,
+uuid:"628D0971-04B8-433F-B454-E01ACA041A92"
+},
+{
+encapsulation:0,
+mimeType:"image/png",
 name:"icons/menu25.png",
 typeid:37,
 uuid:"280AB482-F959-455A-950F-E92F6A5C1799"
