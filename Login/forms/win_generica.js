@@ -46,8 +46,8 @@ function onActionSi(event) {
 		application.getWindow().hide()
 		return
 	}else{
-		forms[vl_form_si][vl_accion_si]
-		application.getWindow().hide()
+		forms[vl_form_si][vl_accion_si]()
+		//application.getWindow().hide()
 	}
 }
 
@@ -64,7 +64,7 @@ function onActionNo(event) {
 		return
 	}else{
 		forms[vl_form_no][vl_accion_no]
-		application.getWindow().hide()
+		//application.getWindow().hide()
 	}
 }
 

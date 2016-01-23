@@ -2,7 +2,7 @@ items:[
 {
 location:"172,178",
 name:"btn_si",
-onActionMethodID:"5F3B42F4-214A-4D2B-907B-18A63A6D7793",
+onActionMethodID:"ECE51EAD-358F-4F45-89DD-2C4EBC2AA783",
 onDoubleClickMethodID:"-1",
 onRightClickMethodID:"-1",
 text:"Si",
@@ -21,11 +21,13 @@ uuid:"13664C3C-DD57-4BB7-B4BE-437558A327C8"
 {
 horizontalAlignment:0,
 location:"108,61",
+mediaOptions:1,
 name:"texto",
-size:"384,78",
+size:"471,107",
 transparent:true,
 typeid:7,
-uuid:"735CFAF2-B945-4E95-AF5A-6344305EFB52"
+uuid:"735CFAF2-B945-4E95-AF5A-6344305EFB52",
+verticalAlignment:1
 },
 {
 location:"257,178",
@@ -40,7 +42,7 @@ uuid:"C04DFF58-0092-4E35-8B81-AF8EF9A0498B"
 {
 location:"344,178",
 name:"btn_no",
-onActionMethodID:"-1",
+onActionMethodID:"5F3B42F4-214A-4D2B-907B-18A63A6D7793",
 onDoubleClickMethodID:"-1",
 onRightClickMethodID:"-1",
 text:"No",

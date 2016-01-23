@@ -90,3 +90,23 @@ function getUserId(user){
 	}
 	
 }
+/**
+ * @AllowToRunInFind
+ * 
+ * TODO generated, please specify type and doc for the params
+ * 
+ *
+ * @properties={typeid:24,uuid:"8F73D21B-76DA-447C-8FB8-2E3DCD736F52"}
+ */
+function esTipoAdmin(){
+	/** @type {JSFoundset<db:/peluqueria/adn_usuarios>}*/
+	var fs_user = databaseManager.getFoundSet('peluqueria','adn_usuarios')
+	fs_user.find()
+	fs_user.user_id = globals.vg_user_id
+	if(fs_user.search() != 0){
+		if(fs_user.user_tipo == 1){
+			return true
+		}
+	}
+	return false
+}
