@@ -46,8 +46,8 @@ function onActionIngresar(event) {
 function CentrarCampos() {
 	
 	var ancho = application.getWindow().getWidth()
-	elements.grp_login.setLocation((ancho - elements.grp_login.getWidth()) / 2,150)
-	elements.grp_lineas.setLocation((ancho - elements.grp_login.getWidth()) / 10,425)
+	elements.grp_login.setLocation((ancho - elements.grp_login.getWidth()) / 2,50)
+	elements.grp_lineas.setLocation((ancho - elements.grp_login.getWidth()) / 10,325)
 	elements.grp_login.visible = true
 	
 }
