@@ -1,4 +1,9 @@
 /**
+ * @properties={typeid:35,uuid:"8001AC43-D9BB-42A1-9C38-116CE4A94FC8",variableType:-4}
+ */
+var vg_user_logo = null;
+
+/**
  * @type {Number}
  *
  * @properties={typeid:35,uuid:"F4AD1170-2DAC-4307-86EF-5B211EFD636F",variableType:4}
@@ -109,4 +114,22 @@ function esTipoAdmin(){
 		}
 	}
 	return false
+}
+
+/**
+ * Callback method for when solution is opened.
+ * When deeplinking into solutions, the argument part of the deeplink url will be passed in as the first argument
+ * All query parameters + the argument of the deeplink url will be passed in as the second argument
+ * For more information on deeplinking, see the chapters on the different Clients in the Deployment Guide.
+ *
+ * @param {String} arg startup argument part of the deeplink url with which the Client was started
+ * @param {Object<Array<String>>} queryParams all query parameters of the deeplink url with which the Client was started
+ *
+ * @properties={typeid:24,uuid:"637D16E7-847A-4CA3-85DC-C60DCF140D94"}
+ */
+function onSolutionOpen1(arg, queryParams) {
+	/** @type {JSFoundset<db:/peluqueria/cfg_empresa>}*/
+	var fs_emp = databaseManager.getFoundSet('peluqueria','cfg_empresa')
+	fs_emp.loadAllRecords()
+	globals.vg_user_logo = fs_emp.cfg_logo
 }

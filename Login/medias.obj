@@ -51,6 +51,13 @@ uuid:"D0C5FFEE-1748-486F-8E86-A95E96407894"
 {
 encapsulation:0,
 mimeType:"image/png",
+name:"icons/edit34.png",
+typeid:37,
+uuid:"0D797673-37AB-42C5-B69C-22BE339FEA29"
+},
+{
+encapsulation:0,
+mimeType:"image/png",
 name:"icons/full22.png",
 typeid:37,
 uuid:"6D6B95FC-9309-4C89-8846-5B7C9AE715EF"
