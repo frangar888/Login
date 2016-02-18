@@ -30,6 +30,13 @@ uuid:"E01B381E-1497-4037-91A9-6E97C5AB215D"
 {
 encapsulation:0,
 mimeType:"image/png",
+name:"icons/clockwise-refresh-arrow.png",
+typeid:37,
+uuid:"F0A0B051-05EE-4E42-BB33-5ED3E9C75641"
+},
+{
+encapsulation:0,
+mimeType:"image/png",
 name:"icons/configuration10.png",
 typeid:37,
 uuid:"7F40E6AC-9622-4E6D-A39C-3843F2C7CB44"
