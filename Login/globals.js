@@ -1,4 +1,11 @@
 /**
+ * @type {String}
+ *
+ * @properties={typeid:35,uuid:"AD375E73-FC35-40CE-B097-BC82E97A8D0D"}
+ */
+var vg_user_nombre = null;
+
+/**
  * @properties={typeid:35,uuid:"8001AC43-D9BB-42A1-9C38-116CE4A94FC8",variableType:-4}
  */
 var vg_user_logo = null;
@@ -92,6 +99,7 @@ function getUserId(user){
 	fs_users.user_nombre = user
 	if(fs_users.search() != 0){
 		vg_user_id = fs_users.user_id
+		vg_user_nombre = fs_users.adn_usuarios_to_adn_login.adn_nombre
 	}
 	
 }
