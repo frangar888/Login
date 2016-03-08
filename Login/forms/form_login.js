@@ -8,6 +8,7 @@
  */
 function onShow(firstShow, event) {
 	CentrarCampos()
+	elements.vl_user.requestFocus()
 }
 
 /**
@@ -36,6 +37,7 @@ function onActionIngresar(event) {
     } else {
         errorMessage = "No tenant found. Please check your password";
         application.output(errorMessage)
+        globals.lanzarVentanaEmergente(0,'El Nombre de Usuario y/o Contraseña son incorrectos.','Info',null,null,null)
         return false
     }
 }
