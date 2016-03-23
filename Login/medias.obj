@@ -121,6 +121,13 @@ uuid:"91199A66-4A0C-4A36-B970-882A01F00FAF"
 {
 encapsulation:0,
 mimeType:"image/png",
+name:"icons/line.png",
+typeid:37,
+uuid:"C852F5DD-DCC9-4F65-85AE-2FE43E033444"
+},
+{
+encapsulation:0,
+mimeType:"image/png",
 name:"icons/list46.png",
 typeid:37,
 uuid:"1977C74D-194B-4200-88EE-D7407ABBA754"
